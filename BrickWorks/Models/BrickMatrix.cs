@@ -2,7 +2,6 @@
 {
     using System;
     using System.Linq;
-    using System.Collections.Generic;
 
     //this class is used to create and validate the matrix
     public class BrickMatrix
@@ -120,7 +119,6 @@
         public int[,] FillLayer2Matrix()
         {
             var matrixLayer2 = new int[height, width];
-            var listWithUsedBricks = new List<int>();
 
             var brickNumber = 0;
             var brickSeparator = -2;
