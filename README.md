@@ -1,2 +1,3 @@
 # BrickWorks
-This is an assignment from MentorMate 2020 Internship
+In the startUp file, you will see command pattern implemented and it will take you to the engine class. In the engine class, you will see only a part of the logic which was implemented during the problem solving, things like a "Parser" for the inputs and outputting methods to the console. You can see some validation in the engine but most of the logic is inside the Models folder in which you see the Brick Matrix Class you can find Exception Throws, validation and the main business logic inside.
+There is 1 bug which i coudnt fix and that is with the brick numbers, apart from that everything else is working as expected.
